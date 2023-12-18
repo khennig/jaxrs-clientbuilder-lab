@@ -1,0 +1,1 @@
+Simple test to find out whats the best way to create a JAX RS Client in a JEE container
