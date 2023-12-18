@@ -23,6 +23,14 @@
                 <type>pom</type>
             </dependency>
 
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>3.0.8</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
             <!-- Does not work with newest Maven Version since BOM contains non-HTTPS references
             <dependency>
                 <groupId>org.wildfly.bom</groupId>
@@ -81,14 +89,12 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.0.8</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
-            <version>3.0.8</version>
             <scope>test</scope>
         </dependency>
 
